@@ -14,10 +14,13 @@ Proyecto académico para la materia de MLOps enfocado en la producción y versio
    pip install -r requirements.txt
 
 ## Ejecutar el script de entrenamiento
+   ```bash
   python train.py
 
 ## Ejecutar personalizando hiperparámetros
+  ```bash
   python train.py --C 0.5 --max-iter 1000 --class-weight balanced --random-state 42
 
 ## Visualizar los experimentos en MLFlow UI
+  ```bash
   mlflow ui --backend-store-uri sqlite:///mlflow.db
