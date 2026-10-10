@@ -18,8 +18,8 @@ Se requiere Python instalado y conexión a internet para descargar el dataset Wi
 Clonar el repositorio:
 
 ```bash
-git clone URL_DE_TU_REPOSITORIO
-cd NOMBRE_DE_TU_REPOSITORIO
+git clone https://github.com/RicardoLozanoBayliss/mlops-wine-baseline
+cd mlops-wine-baseline
 ```
 
 Instalar las dependencias:
