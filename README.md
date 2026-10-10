@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # Baseline de MLOps - UCI Wine Quality
 
 Proyecto académico para la materia de MLOps enfocado en la producción y versionado de un modelo de Regresión Logística utilizando MLflow.
